@@ -1,0 +1,56 @@
+.section1 {
+    position: relative;
+    margin: auto;
+    height: 94vh;
+    max-width: 99vw;
+}
+
+.section2 {
+    margin: auto;
+    height: 80vh;
+    scroll-behavior: smooth;
+    display: block;
+}
+
+.about_us, .purchase {
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about_us p, .purchase p, .purchase ol li {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.about_us h2, .purchase h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.purchase ol li {
+    text-align: center;
+}
+
+.main-img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.section1 img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section1 h1 {
+    z-index: 1;
+    margin: auto;
+    position: absolute;
+    display: block;
+    text-align: center;
+}

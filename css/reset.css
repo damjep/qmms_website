@@ -1,0 +1,10 @@
+figcaption, html, body, div, span, h1, h2, h3, header, footer, p, hr, a, figure, article, section, nav, link, title, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+
