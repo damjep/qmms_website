@@ -1,0 +1,29 @@
+.content {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: auto;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.eq {
+    display: block;
+    text-align: center;
+    padding-top: 4%;
+}

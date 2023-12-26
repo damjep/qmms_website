@@ -1,0 +1,11 @@
+.sponsors img , .sponsors a{
+    width: auto;
+    height: 50%;
+    margin: auto;
+}
+
+.sponsors {
+    display: flex;
+    margin-top: 1.5em;
+}
+

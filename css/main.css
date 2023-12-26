@@ -1,0 +1,85 @@
+.top-container-main {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 99vw;
+}
+
+.top-container {
+    position: relative;
+    display: flex;
+    background-color: white;
+}
+
+.logo {
+    margin: 0.5em;
+    position: relative;
+}
+
+.logo img {
+    width: 6em;
+    height: auto;
+    margin: auto;
+}
+
+.nav {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover, .active { 
+    background: aliceblue;
+}
+
+.footer {
+    border-top: 1px solid black;
+    padding: 2px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    min-width: 99vw;
+}
+
+.footer img { 
+    width: auto;
+    height: 20pt;
+    margin: auto;
+}
+
+.footer p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+footer {
+    width: auto;
+    height: auto;
+}
+
+.footer-main {
+    border-top: 1px solid black;
+    padding: 2px;
+    position: relative;
+    display: flex;
+}
+
+.footer-main img { 
+    width: auto;
+    height: 20pt;
+    margin: auto;
+}
+
+.footer-main p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}

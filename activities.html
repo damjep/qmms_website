@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/activities.css">
+
+    <script type="text/javascript" src="js/activities.js" defer></script>
+</head>
+<body>
+    <div class="top-container">
+        <!--Logo-->
+        <div class="logo">
+            <img src="img/qmms_img.png">
+        </div>
+
+        <!--Navigation-->
+        <div class="nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="activities.html" class="active">Activities</a>
+                <a href="BoD.html">Board of Directors</a>
+                <a href="sponsors.html">Sponsors</a>
+                <a href="contacts.html">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- activities -->
+    <div class="content">
+        <div class="activities">
+            <!-- MNight -->
+            <div>
+                <button type="button" id="content" onclick="show('content-mnight')"><h2 class="click">A Cultural Night to Cherish - MNight</h2></button>
+                <div id="content-mnight" class="hide">
+                    <ul>
+                        <li>A cultural night showcasing the beauty of Malaysian cultures here in the UK!</li>
+                        <li>Usually portrayed through little stories in a theatrical play or drama which also helps in raising funds</li>
+                    </ul>
+                    <div class="mnight">
+                        <img id="mnight-image" src="img\mnight\ain-dayanaa-and-alya.jpeg" alt="Cast Crews">
+                    </div>
+                    <div class="button">
+                        <button type="button" id="prev-mnight">Prev</button>
+                        <button type="button" id="next-mnight">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sports -->
+            <div>
+                <button type="button" onclick="show('content-sports')"><h2 class="click">Ignite Passion, Embrace Unity - Sports</h2></button>
+                <div id="content-sports" class="hide">
+                    <ul>
+                        <li>Sotong Games - As exciting it sounds, in this annual event experience our Malaysian Society competing with the Singaporean Society in various sports</li>
+                        <li>Keep an eye on other social events that might take place too like badminton, basketball and perhaps even wall climbing</li>
+                    </ul>
+                    <div class="sports">
+                        <img id="sports-image" src="img\sotong_gmaes\P1024266.JPG" alt="Sports activity participants">
+                    </div>
+                    <div class="button">
+                        <button type="button" id="prev-sports">Prev</button>
+                        <button type="button" id="next-sports">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Socials -->
+            <div>
+                <button type="button" onclick="show('content-socials')"><h2 class="click">Eager to Meet More Friends in the Same Boat? - Socials</h2></button>
+                <div id="content-socials" class="hide">
+                    <ul>
+                        <li>Get to know us more through the freshers picnic!</li>
+                    </ul>
+                    <div class="socials">
+                        <img id="socials-image" src="img\socials\P1034785.JPG", alt="QMMS members meet up">
+                    </div>
+                    <div class="button">
+                        <button type="button" id="prev-socials">Prev</button>
+                        <button type="button" id="next-socials">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Family System -->
+            <div>
+                <button type="button" onclick="show('content-fs')"><h2 class="click">Feel the Warmth of Home - Family System</h2></button>
+                <div id="content-fs" class="hide">
+                    <ul>
+                        <li>Family System lets you integrate with the Malaysian community at QM</li>
+                        <li>Based on your own common interest</li>
+                        <li>You will each receive a parent and just like a family, you will have parents</li>
+                        <li>Parents are Second or Third Years; not acting as tutors, but like your friends!</li>
+                    </ul>
+                    <div class="fs">
+                        <!-- insert image down here!! -->
+                        <img id="fs-image" src="", alt="QMMS family system"> 
+                    </div>
+                    <div class="button">
+                        <button type="button" id="prev-fs">Prev</button>
+                        <button type="button" id="next-fs">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jom Makan Card -->
+            <div>
+                <button type="button" onclick="show('content-jm')"><h2 class="click">Malaysian Student Privilage to Makan? Of Course Lahh - Jom Makan Card</h2></button>
+                <div id="content-jm" class="hide">
+                    <ul>
+                        <li>Privilege Student card where you can get discounts on selected restaurants </li>
+                    </ul>
+                    <div class="jm">
+                        <!-- insert image down here!! -->
+                        <img id="jm-image" src="", alt="Jom Makan Card"> 
+                    </div>
+                    <div class="button">
+                        <button type="button" id="prev-jm">Prev</button>
+                        <button type="button" id="next-jm">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <footer>
+            <a href="https://www.instagram.com/qm_ms/?hl=en-gb" target="_blank"><img src="img/ig.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/qmmalaysiansociety/" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
+        </footer>
+
+        <p>
+            &copy; Queen Mary Malaysian Society
+        </p>
+    </div>
+
+</body>
+</html>

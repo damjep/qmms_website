@@ -1,0 +1,21 @@
+.news {
+    width: auto;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.content {
+    border: 1px solid black;
+    width: auto;
+    height: 40vh;
+    margin: auto 4%;
+    display: flex;
+}
+
+.content div {
+    margin: auto;
+}
+
+.content div p {
+    font-size: 24px;
+}
